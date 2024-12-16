@@ -3,7 +3,7 @@ import * as fs from 'fs';
 const DELIMITER = '  ';
 const aToB = (a: number, b: number) => a-b;
 
-const stream = fs.createReadStream('/Users/lindsaydages/Desktop/app/src/day_1/data.csv');
+const stream = fs.createReadStream('src/day_1/data.csv');
 const arr1: number[] = [];
 const arr2: number[] = [];
 
