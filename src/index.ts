@@ -1,5 +1,6 @@
 import day1 from './day_1/index';
 import day2 from './day_2/index';
+import day3 from './day_3/index';
 
 
 const init = () => {
@@ -11,6 +12,9 @@ const init = () => {
                     break;
                 case '2':
                     day2();
+                    break;
+                case '3': 
+                    day3();
                     break;
                 default:
                     console.log('unexpected argument')
